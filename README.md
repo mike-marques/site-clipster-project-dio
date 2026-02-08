@@ -1,3 +1,5 @@
+## 🇧🇷 Português
+
 # Clonando a Página do YouTube com CSS
 
 **Projeto de Estudo** feito durante o desafio da DIO, com o objetivo de **clonar a página do YouTube** utilizando apenas **HTML e CSS**, colocando em prática os conceitos de **Flexbox**.
@@ -23,3 +25,32 @@ O design original foi disponibilizado no Figma durante o desafio da DIO:
 - HTML5
 - CSS3 (Flexbox)
 - Figma (modelo de referência)
+
+---
+## 🇺🇸 English
+
+# Cloning the YouTube Page with CSS
+
+**Study Project** created during the DIO challenge, with the goal of cloning the YouTube page using only **HTML and CSS**, putting **Flexbox concepts** into practice.  
+
+> ⚠️ This project is **for study purposes only** and **is not an official YouTube project**.
+
+## Project Objective
+
+In this challenge, the focus is on:  
+
+- Practicing **Flexbox and responsive layout**.  
+- Cloning the YouTube interface based on a **Figma design model**.  
+- Being **creative and adding your own visual identity** to the project.  
+
+## Design Reference
+
+The original design was provided in **Figma** during the DIO challenge:  
+
+[Flexbox Challenge - Figma](link-to-figma)
+
+## Technologies Used
+
+- HTML5  
+- CSS3 (Flexbox)  
+- Figma (design reference)
