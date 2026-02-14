@@ -1,0 +1,199 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.container-nav {
+    max-width: 90rem;
+    width: 100%;
+    max-height: 3.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.video-bell {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3.75rem;
+    gap: 1.25rem;
+}
+
+.menu {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 1rem 0 1rem 1.6rem;
+
+}
+
+.center-search {
+    max-width: 25.25rem;
+    max-height: 2.5rem;
+    box-sizing: content-box;
+    padding: 0.31rem 0 0.31rem 0;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+@media (max-width: 64rem){
+    main{
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+    .container-main{
+        margin: 1.62rem auto 0 auto;
+        padding: 1.25rem;
+    }
+    aside{
+        width: 100%;
+        margin: 1.62rem auto 0 auto;
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 48rem){
+    .container-data{
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+    aside img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.container-main {
+    width: 100%;
+    max-width: 59.5rem;
+    display: block;
+    height: auto;
+    margin: 2rem auto 0 auto;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+}
+
+iframe {
+    width: 100%;
+    max-width: 59.37rem;
+    aspect-ratio: 16 / 9;
+    border-radius: 1.56rem;
+}
+
+.font {
+    font-family: roboto;
+    font-weight: 600;
+    height: auto;
+    margin-top: 0.2rem;
+    font-size: 0.87rem;
+}
+
+.font02{
+    font-family: roboto;
+    font-weight: 400;
+    height: auto;
+    color: #515151;
+    font-size: 0.75rem;
+}
+
+.font03{
+    font-family: roboto;
+    font-weight: 600;
+    height: auto;
+    margin-top: 0.2rem;
+    font-size: 1.25rem;
+}
+
+.container-data {
+    max-width: 56.37rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.subscribers {
+    width: 6.62rem;
+    height: 2rem;
+    margin-left: 2rem
+}
+
+.subscribe {
+    width: 9.93rem;
+    height: 2.5rem;
+
+}
+
+.like,
+.deslike,
+.share,
+.download {
+    width: 1.23rem;
+    height: 1.25rem;
+    margin: auto 0 auto 0;
+
+}
+
+.icon-container{
+    display: flex;
+    gap: 0.625rem;
+}
+
+ .format {
+    max-height: 1rem;
+    width: 100%;
+    margin: auto 0 auto 0;
+}
+
+.format02{
+    display: inline-block;
+    border-left: 0.25rem solid #515151;
+    border-radius: 0.31rem;
+    padding: 0.31rem 0.62rem;
+    background-color: lightgray;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container-describe{
+    max-width: 31.87rem;
+    width: 100%;
+    margin: 1rem 0 0 0;
+}
+
+aside a{
+    display: flex;
+    gap: 0.75rem;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    margin: 1.62rem 0 0 0;
+    gap: 0.93rem;
+}
+aside img{
+    display: block;
+    width: 100%;
+    max-width: 10rem;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 0.31rem;
+}
+
+.text-format-aside{
+    display: flex;
+    flex-direction: column;
+}
